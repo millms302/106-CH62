@@ -1,0 +1,15 @@
+main{
+    display: flex;
+}
+#list{
+    flex:2;
+    background-color: green;
+    height:100vh;
+}
+#form{
+    flex:1;
+    background-color: darkgoldenrod;
+}
+/* please using the relationships of the sections,
+cover the two sections with a solid color */
+

@@ -13,7 +13,13 @@
 <body>
     <!-- <div></div> -->
     <main>
-        <section id="list">List</section>
+        <section id="list">
+            <!--this is the section that gets data from the server -->
+            <button id="btnDetails" class="btn btn-outline-primary">Details</button>
+            <div class="pending-task">
+                <!-- tasks will be rendered here -->
+            </div>
+        </section>
         <section id="form">
             <div class="mb-3">
                 <label class="form-label">Title</label>
@@ -50,6 +56,7 @@
             </div>
 
             <button id="btnSave" class="btn-btn primary">Save</button>
+            <button id="btnDelete" class="btn-btn delete">Delete</button>
             <!--Inputs that I want to create -->
             <!-- Title
              Description
@@ -62,6 +69,7 @@
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./scripts/Task.js"></script>
     <script src="./scripts/app1.js"></script>
 </body>
 
